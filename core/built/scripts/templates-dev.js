@@ -4,47 +4,47 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   var buffer = '', helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
 
 
-  data.buffer.push("<li>\n	<a href=\"https://github.com/JohnONolan\" title=\"JohnONolan\">\n		<img src=\"");
+  data.buffer.push("<li>\n    <a href=\"https://github.com/PaulAdamDavis\" title=\"PaulAdamDavis\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/JohnONolan\" alt=\"JohnONolan\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/ErisDS\" title=\"ErisDS\">\n		<img src=\"");
+  data.buffer.push("/PaulAdamDavis\" alt=\"PaulAdamDavis\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/ErisDS\" title=\"ErisDS\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/ErisDS\" alt=\"ErisDS\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/PaulAdamDavis\" title=\"PaulAdamDavis\">\n		<img src=\"");
+  data.buffer.push("/ErisDS\" alt=\"ErisDS\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/jaswilli\" title=\"jaswilli\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/PaulAdamDavis\" alt=\"PaulAdamDavis\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/halfdan\" title=\"halfdan\">\n		<img src=\"");
+  data.buffer.push("/jaswilli\" alt=\"jaswilli\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/halfdan\" title=\"halfdan\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/halfdan\" alt=\"halfdan\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/jaswilli\" title=\"jaswilli\">\n		<img src=\"");
+  data.buffer.push("/halfdan\" alt=\"halfdan\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/JohnONolan\" title=\"JohnONolan\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/jaswilli\" alt=\"jaswilli\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/felixrieseberg\" title=\"felixrieseberg\">\n		<img src=\"");
+  data.buffer.push("/JohnONolan\" alt=\"JohnONolan\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/novaugust\" title=\"novaugust\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/felixrieseberg\" alt=\"felixrieseberg\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/novaugust\" title=\"novaugust\">\n		<img src=\"");
+  data.buffer.push("/novaugust\" alt=\"novaugust\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/felixrieseberg\" title=\"felixrieseberg\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/novaugust\" alt=\"novaugust\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/rwjblue\" title=\"rwjblue\">\n		<img src=\"");
+  data.buffer.push("/felixrieseberg\" alt=\"felixrieseberg\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/cobbspur\" title=\"cobbspur\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/rwjblue\" alt=\"rwjblue\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/sebgie\" title=\"sebgie\">\n		<img src=\"");
+  data.buffer.push("/cobbspur\" alt=\"cobbspur\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/javorszky\" title=\"javorszky\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/sebgie\" alt=\"sebgie\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/hswolff\" title=\"hswolff\">\n		<img src=\"");
+  data.buffer.push("/javorszky\" alt=\"javorszky\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/Gargol\" title=\"Gargol\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/hswolff\" alt=\"hswolff\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/morficus\" title=\"morficus\">\n		<img src=\"");
+  data.buffer.push("/Gargol\" alt=\"Gargol\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/jgable\" title=\"jgable\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/morficus\" alt=\"morficus\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/javorszky\" title=\"javorszky\">\n		<img src=\"");
+  data.buffer.push("/jgable\" alt=\"jgable\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/mattiascibien\" title=\"mattiascibien\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/javorszky\" alt=\"javorszky\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/cobbspur\" title=\"cobbspur\">\n		<img src=\"");
+  data.buffer.push("/mattiascibien\" alt=\"mattiascibien\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/sebgie\" title=\"sebgie\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/cobbspur\" alt=\"cobbspur\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/jillesme\" title=\"jillesme\">\n		<img src=\"");
+  data.buffer.push("/sebgie\" alt=\"sebgie\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/hswolff\" title=\"hswolff\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/jillesme\" alt=\"jillesme\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/jgable\" title=\"jgable\">\n		<img src=\"");
+  data.buffer.push("/hswolff\" alt=\"hswolff\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/rwjblue\" title=\"rwjblue\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/jgable\" alt=\"jgable\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/SiR-DanieL\" title=\"SiR-DanieL\">\n		<img src=\"");
+  data.buffer.push("/rwjblue\" alt=\"rwjblue\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/jillesme\" title=\"jillesme\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/SiR-DanieL\" alt=\"SiR-DanieL\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/mattiascibien\" title=\"mattiascibien\">\n		<img src=\"");
+  data.buffer.push("/jillesme\" alt=\"jillesme\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/RaoHai\" title=\"RaoHai\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/mattiascibien\" alt=\"mattiascibien\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/wjake\" title=\"wjake\">\n		<img src=\"");
+  data.buffer.push("/RaoHai\" alt=\"RaoHai\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/dbalders\" title=\"dbalders\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/wjake\" alt=\"wjake\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/shindakun\" title=\"shindakun\">\n		<img src=\"");
+  data.buffer.push("/dbalders\" alt=\"dbalders\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/IanMitchell\" title=\"IanMitchell\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/shindakun\" alt=\"shindakun\">\n	</a>\n</li>\n<li>\n	<a href=\"https://github.com/manuelmitasch\" title=\"manuelmitasch\">\n		<img src=\"");
+  data.buffer.push("/IanMitchell\" alt=\"IanMitchell\">\n    </a>\n</li>\n<li>\n    <a href=\"https://github.com/iBotPeaches\" title=\"iBotPeaches\">\n        <img src=\"");
   data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "admin", "/img/contributors", options) : helperMissing.call(depth0, "gh-path", "admin", "/img/contributors", options))));
-  data.buffer.push("/manuelmitasch\" alt=\"manuelmitasch\">\n	</a>\n</li>");
+  data.buffer.push("/iBotPeaches\" alt=\"iBotPeaches\">\n    </a>\n</li>");
   return buffer;
   
 }); });
@@ -127,22 +127,23 @@ function program8(depth0,data) {
   }
 function program9(depth0,data) {
   
-  var buffer = '', stack1;
+  var buffer = '';
   data.buffer.push("\n            <div class=\"image\"><img ");
   data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'src': ("session.user.image")
-  },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" alt=\"");
-  stack1 = helpers._triageMustache.call(depth0, "session.user.name", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("'s profile picture\" /></div>\n            ");
+    'src': ("session.user.image"),
+    'alt': ("userImageAlt")
+  },hashTypes:{'src': "ID",'alt': "ID"},hashContexts:{'src': depth0,'alt': depth0},contexts:[],types:[],data:data})));
+  data.buffer.push(" /></div>\n            ");
   return buffer;
   }
 
 function program11(depth0,data) {
   
-  
-  data.buffer.push("\n            <div class=\"image\"><img src=\"/shared/img/user-image.png\" alt=\"Profile picture\" /></div>\n            ");
+  var buffer = '', helper, options;
+  data.buffer.push("\n            <div class=\"image\"><img src=\"");
+  data.buffer.push(escapeExpression((helper = helpers['gh-path'] || (depth0 && depth0['gh-path']),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data},helper ? helper.call(depth0, "blog", "shared/img/user-image.png", options) : helperMissing.call(depth0, "gh-path", "blog", "shared/img/user-image.png", options))));
+  data.buffer.push("\" alt=\"Profile picture\" /></div>\n            ");
+  return buffer;
   }
 
 function program13(depth0,data) {
@@ -192,7 +193,7 @@ function program16(depth0,data) {
   data.buffer.push("\n\n    ");
   stack1 = helpers.unless.call(depth0, "session.user.isAuthor", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n\n    \n\n    <div class=\"nav-item user-menu\" data-href=\"#\">\n        ");
+  data.buffer.push("\n\n    \n\n    <div class=\"nav-item user-menu\">\n        ");
   stack1 = (helper = helpers['gh-dropdown-button'] || (depth0 && depth0['gh-dropdown-button']),options={hash:{
     'dropdownName': ("user-menu"),
     'tagName': ("div"),
@@ -220,7 +221,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
 
   data.buffer.push("<footer id=\"publish-bar\">\n    <div class=\"publish-bar-inner\">\n        ");
   data.buffer.push(escapeExpression((helper = helpers.render || (depth0 && depth0.render),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "post-tags-input", options) : helperMissing.call(depth0, "render", "post-tags-input", options))));
-  data.buffer.push("\n\n        <div class=\"publish-bar-actions\">\n            <button type=\"button\" class='post-settings' ");
+  data.buffer.push("\n\n        <div class=\"publish-bar-actions\">\n            <button type=\"button\" class=\"post-settings\" ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "toggleSettingsMenu", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
   data.buffer.push("></button>\n            ");
   data.buffer.push(escapeExpression(helpers.view.call(depth0, "editor-save-button", {hash:{
@@ -415,7 +416,7 @@ function program5(depth0,data) {
   return buffer;
   }
 
-  data.buffer.push("<div id=\"modal-container\" class=\"js-modal-container\" ");
+  data.buffer.push("<div class=\"modal-container js-modal-container\" ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "closeModal", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
   data.buffer.push(">\n    <article ");
   data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
@@ -534,55 +535,6 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   
 }); });
 
-define('ghost/templates/debug', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
-this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
-
-function program1(depth0,data) {
-  
-  
-  data.buffer.push("Back");
-  }
-
-function program3(depth0,data) {
-  
-  var buffer = '', helper, options;
-  data.buffer.push("\n                    <fieldset>\n                        <div class=\"form-group\">\n                            <label>Import</label>\n                            ");
-  data.buffer.push(escapeExpression((helper = helpers.partial || (depth0 && depth0.partial),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "import-errors", options) : helperMissing.call(depth0, "partial", "import-errors", options))));
-  data.buffer.push("\n                            ");
-  data.buffer.push(escapeExpression((helper = helpers['gh-file-upload'] || (depth0 && depth0['gh-file-upload']),options={hash:{
-    'id': ("importfile"),
-    'uploadButtonText': ("uploadButtonText")
-  },hashTypes:{'id': "STRING",'uploadButtonText': "ID"},hashContexts:{'id': depth0,'uploadButtonText': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-file-upload", options))));
-  data.buffer.push("\n                            <p>Import from another Ghost installation. If you import a user, this will replace the current user & log you out.</p>\n                        </div>\n                    </fieldset>\n                ");
-  return buffer;
-  }
-
-  data.buffer.push("<header class=\"page-header\">\n    <button class=\"menu-button js-menu-button\" ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "toggleGlobalMobileNav", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push("><span class=\"sr-only\">Menu</span></button>\n    <h2 class=\"page-title\">Settings</h2>\n</header>\n\n<div class=\"page-content\">\n\n    <div class=\"settings-content\">\n\n        <header class=\"settings-view-header\">\n            <h2 class=\"page-title\">Ugly Debug Tools</h2>\n            <div class=\"js-settings-header-inner settings-header-inner\">\n                ");
-  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
-    'class': ("btn btn-default btn-back")
-  },hashTypes:{'class': "STRING"},hashContexts:{'class': depth0},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "settings", options) : helperMissing.call(depth0, "link-to", "settings", options));
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n            </div>\n        </header>\n\n        <section class=\"content settings-debug\">\n\n            <form id=\"settings-export\">\n                    <fieldset>\n                        <div class=\"form-group\">\n                            <label>Export</label>\n                            <a class=\"btn btn-blue\" ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "exportData", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push(">Export</a>\n                            <p>Export the blog settings and data.</p>\n                        </div>\n                    </fieldset>\n                </form>\n                ");
-  stack1 = (helper = helpers['gh-form'] || (depth0 && depth0['gh-form']),options={hash:{
-    'id': ("settings-import"),
-    'enctype': ("multipart/form-data")
-  },hashTypes:{'id': "STRING",'enctype': "STRING"},hashContexts:{'id': depth0,'enctype': depth0},inverse:self.noop,fn:self.program(3, program3, data),contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-form", options));
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n                <form id=\"settings-resetdb\">\n                    <fieldset>\n                        <div class=\"form-group\">\n                            <label>Delete all Content</label>\n                            <a href=\"javascript:void(0);\" class=\"btn btn-red js-delete\" ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "openModal", "deleteAll", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data})));
-  data.buffer.push(">Delete</a>\n                            <p>Delete all posts and tags from the database.</p>\n                        </div>\n                    </fieldset>\n                </form>\n                <form id=\"settings-testmail\">\n                    <fieldset>\n                        <div class=\"form-group\">\n                            <label>Send a test email</label>\n                            <button type=\"submit\" id=\"sendtestmail\" class=\"btn btn-blue\" ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "sendTestEmail", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push(">Send</button>\n                            <p>Sends a test email to your address.</p>\n                        </div>\n                    </fieldset>\n                </form>\n        </section>\n\n    </div>\n\n</div>");
-  return buffer;
-  
-}); });
-
 define('ghost/templates/editor-save-button', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
@@ -681,8 +633,9 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
     'openModal': ("openModal"),
     'typingPause': ("autoSave"),
     'focus': ("shouldFocusEditor"),
+    'focusCursorAtEnd': ("model.isDirty"),
     'onFocusIn': ("autoSaveNew")
-  },hashTypes:{'value': "ID",'scrollInfo': "ID",'setCodeMirror': "STRING",'openModal': "STRING",'typingPause': "STRING",'focus': "ID",'onFocusIn': "STRING"},hashContexts:{'value': depth0,'scrollInfo': depth0,'setCodeMirror': depth0,'openModal': depth0,'typingPause': depth0,'focus': depth0,'onFocusIn': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-codemirror", options))));
+  },hashTypes:{'value': "ID",'scrollInfo': "ID",'setCodeMirror': "STRING",'openModal': "STRING",'typingPause': "STRING",'focus': "ID",'focusCursorAtEnd': "ID",'onFocusIn': "STRING"},hashContexts:{'value': depth0,'scrollInfo': depth0,'setCodeMirror': depth0,'openModal': depth0,'typingPause': depth0,'focus': depth0,'focusCursorAtEnd': depth0,'onFocusIn': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-codemirror", options))));
   data.buffer.push("\n        </section>\n    </section>\n\n    <section ");
   data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
     'class': (":entry-preview :js-entry-preview isPreview:active")
@@ -886,8 +839,12 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
 
 function program1(depth0,data) {
   
-  
-  data.buffer.push("\n\n    <p>This is permanent! No backups, no restores, no magic undo button. <br /> We warned you, ok?</p>\n\n");
+  var buffer = '', stack1;
+  data.buffer.push("\n\n    <p>You're about to delete \"<strong>");
+  stack1 = helpers._triageMustache.call(depth0, "model.title", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</strong>\".<br />This is permanent! No backups, no restores, no magic undo button. <br /> We warned you, ok?</p>\n\n");
+  return buffer;
   }
 
   stack1 = (helper = helpers['gh-modal-dialog'] || (depth0 && depth0['gh-modal-dialog']),options={hash:{
@@ -1106,8 +1063,9 @@ function program1(depth0,data) {
     'uploaded': ("setCoverImage"),
     'canceled': ("clearCoverImage"),
     'image': ("image"),
+    'uploaderReference': ("uploaderReference"),
     'tagName': ("section")
-  },hashTypes:{'uploaded': "STRING",'canceled': "STRING",'image': "ID",'tagName': "STRING"},hashContexts:{'uploaded': depth0,'canceled': depth0,'image': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-uploader", options))));
+  },hashTypes:{'uploaded': "STRING",'canceled': "STRING",'image': "ID",'uploaderReference': "ID",'tagName': "STRING"},hashContexts:{'uploaded': depth0,'canceled': depth0,'image': depth0,'uploaderReference': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-uploader", options))));
   data.buffer.push("\n            <form>\n            <div class=\"form-group\">\n                <label for=\"url\">Post URL</label>\n                <span class=\"input-icon icon-link\">\n                    ");
   data.buffer.push(escapeExpression((helper = helpers['gh-input'] || (depth0 && depth0['gh-input']),options={hash:{
     'class': ("post-setting-slug"),
@@ -1115,10 +1073,9 @@ function program1(depth0,data) {
     'value': ("slugValue"),
     'name': ("post-setting-slug"),
     'focus-out': ("updateSlug"),
-    'placeholder': ("slugPlaceholder"),
     'selectOnClick': ("true"),
     'stopEnterKeyDownPropagation': ("true")
-  },hashTypes:{'class': "STRING",'id': "STRING",'value': "ID",'name': "STRING",'focus-out': "STRING",'placeholder': "ID",'selectOnClick': "STRING",'stopEnterKeyDownPropagation': "STRING"},hashContexts:{'class': depth0,'id': depth0,'value': depth0,'name': depth0,'focus-out': depth0,'placeholder': depth0,'selectOnClick': depth0,'stopEnterKeyDownPropagation': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-input", options))));
+  },hashTypes:{'class': "STRING",'id': "STRING",'value': "ID",'name': "STRING",'focus-out': "STRING",'selectOnClick': "STRING",'stopEnterKeyDownPropagation': "STRING"},hashContexts:{'class': depth0,'id': depth0,'value': depth0,'name': depth0,'focus-out': depth0,'selectOnClick': depth0,'stopEnterKeyDownPropagation': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-input", options))));
   data.buffer.push("\n                </span>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"post-setting-date\">Publish Date</label>\n                <span class=\"input-icon icon-calendar\">\n                    ");
   data.buffer.push(escapeExpression((helper = helpers['gh-input'] || (depth0 && depth0['gh-input']),options={hash:{
     'class': ("post-setting-date"),
@@ -1126,9 +1083,8 @@ function program1(depth0,data) {
     'value': ("publishedAtValue"),
     'name': ("post-setting-date"),
     'focus-out': ("setPublishedAt"),
-    'placeholder': ("publishedAtPlaceholder"),
     'stopEnterKeyDownPropagation': ("true")
-  },hashTypes:{'class': "STRING",'id': "STRING",'value': "ID",'name': "STRING",'focus-out': "STRING",'placeholder': "ID",'stopEnterKeyDownPropagation': "STRING"},hashContexts:{'class': depth0,'id': depth0,'value': depth0,'name': depth0,'focus-out': depth0,'placeholder': depth0,'stopEnterKeyDownPropagation': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-input", options))));
+  },hashTypes:{'class': "STRING",'id': "STRING",'value': "ID",'name': "STRING",'focus-out': "STRING",'stopEnterKeyDownPropagation': "STRING"},hashContexts:{'class': depth0,'id': depth0,'value': depth0,'name': depth0,'focus-out': depth0,'stopEnterKeyDownPropagation': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-input", options))));
   data.buffer.push("\n                </span>\n            </div>\n\n            ");
   stack1 = helpers.unless.call(depth0, "session.user.isAuthor", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(2, program2, data),contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
@@ -1179,14 +1135,14 @@ function program2(depth0,data) {
   
   var buffer = '';
   data.buffer.push("\n            <div class=\"form-group for-select\">\n                <label for=\"author-list\">Author</label>\n                <span class=\"input-icon icon-user\">\n                    <span class=\"gh-select\" tabindex=\"0\">\n                    ");
-  data.buffer.push(escapeExpression(helpers.view.call(depth0, "Ember.Select", {hash:{
+  data.buffer.push(escapeExpression(helpers.view.call(depth0, "select", {hash:{
     'name': ("post-setting-author"),
     'id': ("author-list"),
     'content': ("authors"),
     'optionValuePath': ("content.id"),
     'optionLabelPath': ("content.name"),
     'selection': ("selectedAuthor")
-  },hashTypes:{'name': "STRING",'id': "STRING",'content': "ID",'optionValuePath': "STRING",'optionLabelPath': "STRING",'selection': "ID"},hashContexts:{'name': depth0,'id': depth0,'content': depth0,'optionValuePath': depth0,'optionLabelPath': depth0,'selection': depth0},contexts:[depth0],types:["ID"],data:data})));
+  },hashTypes:{'name': "STRING",'id': "STRING",'content': "ID",'optionValuePath': "STRING",'optionLabelPath': "STRING",'selection': "ID"},hashContexts:{'name': depth0,'id': depth0,'content': depth0,'optionValuePath': depth0,'optionLabelPath': depth0,'selection': depth0},contexts:[depth0],types:["STRING"],data:data})));
   data.buffer.push("\n                    </span>\n                </span>\n            </div>\n            ");
   return buffer;
   }
@@ -1194,7 +1150,7 @@ function program2(depth0,data) {
 function program4(depth0,data) {
   
   
-  data.buffer.push("\n                    <a href=\"#\">\n                        <b>Meta Data</b>\n                        <span>Extra content for SEO and social media.</span>\n                    </a>\n                ");
+  data.buffer.push("\n                    <button type=\"button\">\n                        <b>Meta Data</b>\n                        <span>Extra content for SEO and social media.</span>\n                    </button>\n                ");
   }
 
 function program6(depth0,data) {
@@ -1233,7 +1189,7 @@ function program6(depth0,data) {
   data.buffer.push("</div>\n                    <div class=\"seo-preview-description\">");
   stack1 = helpers._triageMustache.call(depth0, "seoDescription", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</div>\n                </div>\n            </form>\n        </div>\n    ");
+  data.buffer.push("</div>\n                </div>\n            </div>\n            </form>\n        </div>\n    ");
   return buffer;
   }
 
@@ -1394,7 +1350,11 @@ function program11(depth0,data) {
 
   data.buffer.push("<header class=\"page-header\">\n    <button class=\"menu-button js-menu-button\" ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "toggleGlobalMobileNav", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push("><span class=\"sr-only\">Menu</span></button>\n    <h2 class=\"page-title\">Content</h2>\n</header>\n\n<div class=\"page-content\">\n    <section class=\"content-list js-content-list\">\n        <header class=\"floatingheader\">\n            <section class=\"content-filter\">\n                <small>All Posts</small>\n            </section>\n            ");
+  data.buffer.push("><span class=\"sr-only\">Menu</span></button>\n    <h2 class=\"page-title\">Content</h2>\n</header>\n\n<div class=\"page-content\">\n    <section ");
+  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
+    'class': (":content-list :js-content-list postListFocused:keyboard-focused")
+  },hashTypes:{'class': "STRING"},hashContexts:{'class': depth0},contexts:[],types:[],data:data})));
+  data.buffer.push(">\n        <header class=\"floatingheader\">\n            <section class=\"content-filter\">\n                <small>All Posts</small>\n            </section>\n            ");
   stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
     'class': ("btn btn-green"),
     'title': ("New Post")
@@ -1406,7 +1366,11 @@ function program11(depth0,data) {
     'classNames': ("content-list-content")
   },hashTypes:{'tagName': "STRING",'classNames': "STRING"},hashContexts:{'tagName': depth0,'classNames': depth0},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["STRING"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n    </section>\n    <section class=\"content-preview js-content-preview\">\n        ");
+  data.buffer.push("\n    </section>\n    <section ");
+  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
+    'class': (":content-preview :js-content-preview postContentFocused:keyboard-focused")
+  },hashTypes:{'class': "STRING"},hashContexts:{'class': depth0},contexts:[],types:[],data:data})));
+  data.buffer.push(">\n        ");
   stack1 = helpers._triageMustache.call(depth0, "outlet", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n    </section>\n</div>\n");
@@ -1570,47 +1534,106 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
 define('ghost/templates/settings', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
+  var buffer = '', stack1, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
 
 function program1(depth0,data) {
   
-  var buffer = '', stack1, helper, options;
-  data.buffer.push("\n                ");
-  stack1 = helpers.unless.call(depth0, "session.user.isEditor", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(2, program2, data),contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n\n                ");
-  data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
-    'route': ("settings.users"),
-    'title': ("Users"),
-    'classNames': ("settings-nav-users icon-users")
-  },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
-  data.buffer.push("\n\n            ");
-  return buffer;
-  }
-function program2(depth0,data) {
-  
   var buffer = '', helper, options;
-  data.buffer.push("\n                    ");
+  data.buffer.push("\n                ");
   data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
     'route': ("settings.general"),
     'title': ("General"),
     'classNames': ("settings-nav-general icon-settings")
   },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
-  data.buffer.push("\n                ");
+  data.buffer.push("\n            ");
   return buffer;
   }
 
-  data.buffer.push("<header class=\"page-header\">\n    <button class=\"menu-button js-menu-button\" ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "toggleGlobalMobileNav", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push("><span class=\"sr-only\">Menu</span></button>\n    <h2 class=\"page-title\">Settings</h2>\n</header>\n\n<div class=\"page-content\">\n    <nav class=\"settings-nav js-settings-menu\">\n        <ul>\n            ");
-  stack1 = helpers.unless.call(depth0, "session.user.isAuthor", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n\n            ");
+function program3(depth0,data) {
+  
+  var buffer = '', helper, options;
+  data.buffer.push("\n                ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
+    'route': ("settings.users"),
+    'title': ("Users"),
+    'classNames': ("settings-nav-users icon-users")
+  },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
+  data.buffer.push("\n            ");
+  return buffer;
+  }
+
+function program5(depth0,data) {
+  
+  var buffer = '', helper, options;
+  data.buffer.push("\n                ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
+    'route': ("settings.tags"),
+    'title': ("Tags"),
+    'classNames': ("settings-nav-tags icon-tag")
+  },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
+  data.buffer.push("\n            ");
+  return buffer;
+  }
+
+function program7(depth0,data) {
+  
+  var buffer = '', helper, options;
+  data.buffer.push("\n                ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
+    'route': ("settings.code-injection"),
+    'title': ("Code Injection"),
+    'classNames': ("settings-nav-code icon-code")
+  },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
+  data.buffer.push("\n            ");
+  return buffer;
+  }
+
+function program9(depth0,data) {
+  
+  var buffer = '', helper, options;
+  data.buffer.push("\n                ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
+    'route': ("settings.labs"),
+    'title': ("Labs"),
+    'classNames': ("settings-nav-labs icon-atom")
+  },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
+  data.buffer.push("\n            ");
+  return buffer;
+  }
+
+function program11(depth0,data) {
+  
+  var buffer = '', helper, options;
+  data.buffer.push("\n                ");
   data.buffer.push(escapeExpression((helper = helpers['gh-activating-list-item'] || (depth0 && depth0['gh-activating-list-item']),options={hash:{
     'route': ("settings.about"),
     'title': ("About"),
     'classNames': ("settings-nav-about icon-pacman")
   },hashTypes:{'route': "STRING",'title': "STRING",'classNames': "STRING"},hashContexts:{'route': depth0,'title': depth0,'classNames': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-activating-list-item", options))));
+  data.buffer.push("\n            ");
+  return buffer;
+  }
+
+  data.buffer.push("<header class=\"page-header\">\n    <button class=\"menu-button js-menu-button\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "toggleGlobalMobileNav", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push("><span class=\"sr-only\">Menu</span></button>\n    <h2 class=\"page-title\">Settings</h2>\n</header>\n\n<div class=\"page-content\">\n    <nav class=\"settings-nav js-settings-menu\">\n        <ul>\n\n            ");
+  stack1 = helpers['if'].call(depth0, "showGeneral", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n\n            ");
+  stack1 = helpers['if'].call(depth0, "showUsers", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n\n            ");
+  stack1 = helpers['if'].call(depth0, "showTags", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n\n            ");
+  stack1 = helpers['if'].call(depth0, "showCodeInjection", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(7, program7, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n\n            ");
+  stack1 = helpers['if'].call(depth0, "showLabs", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(9, program9, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n\n            ");
+  stack1 = helpers['if'].call(depth0, "showAbout", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(11, program11, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n        </ul>\n    </nav>\n\n    ");
   stack1 = helpers._triageMustache.call(depth0, "outlet", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
@@ -1735,6 +1758,43 @@ function program6(depth0,data) {
   
 }); });
 
+define('ghost/templates/settings/code-injection', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', stack1, helper, options, self=this, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+
+function program1(depth0,data) {
+  
+  
+  data.buffer.push("Back");
+  }
+
+  data.buffer.push("<header class=\"settings-view-header\">\n    ");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
+    'class': ("btn btn-default btn-back")
+  },hashTypes:{'class': "STRING"},hashContexts:{'class': depth0},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "settings", options) : helperMissing.call(depth0, "link-to", "settings", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n    <h2 class=\"page-title\">Code Injection</h2>\n    <section class=\"page-actions\">\n        <button type=\"button\" class=\"btn btn-blue\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "save", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">Save</button>\n    </section>\n</header>\n\n<section class=\"content settings-code\">\n    <form id=\"settings-code\" novalidate=\"novalidate\">\n        <fieldset>\n            <div class=\"form-group\">\n                <p>\n                    Ghost allows you to inject code into the top and bottom of your template files without editing them. This allows for quick modifications to insert useful things like tracking codes and meta data.\n                </p>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"ghost-head\">Blog Header</label>\n                <p>Code here will be injected to the {{ghost_head}} helper at the top of your page</p>\n                ");
+  data.buffer.push(escapeExpression((helper = helpers.textarea || (depth0 && depth0.textarea),options={hash:{
+    'id': ("ghost-head"),
+    'name': ("codeInjection[ghost_head]"),
+    'type': ("text"),
+    'value': ("ghost_head")
+  },hashTypes:{'id': "STRING",'name': "STRING",'type': "STRING",'value': "ID"},hashContexts:{'id': depth0,'name': depth0,'type': depth0,'value': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "textarea", options))));
+  data.buffer.push("\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"ghost-foot\">Blog Footer</label>\n                <p>Code here will be injected to the {{ghost_foot}} helper at the bottom of your page</p>\n                ");
+  data.buffer.push(escapeExpression((helper = helpers.textarea || (depth0 && depth0.textarea),options={hash:{
+    'id': ("ghost-foot"),
+    'name': ("codeInjection[ghost_foot]"),
+    'type': ("text"),
+    'value': ("ghost_foot")
+  },hashTypes:{'id': "STRING",'name': "STRING",'type': "STRING",'value': "ID"},hashContexts:{'id': depth0,'name': depth0,'type': depth0,'value': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "textarea", options))));
+  data.buffer.push("\n            </div>\n        </fieldset>\n    </form>\n</section>\n");
+  return buffer;
+  
+}); });
+
 define('ghost/templates/settings/general', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
@@ -1827,7 +1887,7 @@ function program9(depth0,data) {
     'autocapitalize': ("off"),
     'autocorrect': ("off")
   },hashTypes:{'id': "STRING",'name': "STRING",'type': "STRING",'value': "ID",'autocapitalize': "STRING",'autocorrect': "STRING"},hashContexts:{'id': depth0,'name': depth0,'type': depth0,'value': depth0,'autocapitalize': depth0,'autocorrect': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "input", options))));
-  data.buffer.push("\n                <p>Address to use for admin notifications</p>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"postsPerPage\">Posts per page</label>\n                ");
+  data.buffer.push("\n                <p>Address to use for admin notifications</p>\n            </div>\n\n            <div class=\"form-group\">\n                <label for=\"postsPerPage\">Posts per page</label>\n                \n                ");
   data.buffer.push(escapeExpression((helper = helpers.input || (depth0 && depth0.input),options={hash:{
     'id': ("postsPerPage"),
     'name': ("general[postsPerPage]"),
@@ -1835,8 +1895,9 @@ function program9(depth0,data) {
     'value': ("postsPerPage"),
     'min': ("1"),
     'max': ("1000"),
-    'type': ("number")
-  },hashTypes:{'id': "STRING",'name': "STRING",'focus-out': "STRING",'value': "ID",'min': "STRING",'max': "STRING",'type': "STRING"},hashContexts:{'id': depth0,'name': depth0,'focus-out': depth0,'value': depth0,'min': depth0,'max': depth0,'type': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "input", options))));
+    'type': ("number"),
+    'pattern': ("[0-9]*")
+  },hashTypes:{'id': "STRING",'name': "STRING",'focus-out': "STRING",'value': "ID",'min': "STRING",'max': "STRING",'type': "STRING",'pattern': "STRING"},hashContexts:{'id': depth0,'name': depth0,'focus-out': depth0,'value': depth0,'min': depth0,'max': depth0,'type': depth0,'pattern': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "input", options))));
   data.buffer.push("\n                <p>How many posts should be displayed on each page</p>\n            </div>\n\n            <div class=\"form-group for-checkbox\">\n                <label for=\"permalinks\">Dated Permalinks</label>\n                <label class=\"checkbox\" for=\"permalinks\">\n                    ");
   data.buffer.push(escapeExpression((helper = helpers.input || (depth0 && depth0.input),options={hash:{
     'id': ("permalinks"),
@@ -1849,7 +1910,7 @@ function program9(depth0,data) {
     'data-select-text': ("selectedTheme.label")
   },hashTypes:{'data-select-text': "ID"},hashContexts:{'data-select-text': depth0},contexts:[],types:[],data:data})));
   data.buffer.push(" tabindex=\"0\">\n                   ");
-  data.buffer.push(escapeExpression(helpers.view.call(depth0, "Ember.Select", {hash:{
+  data.buffer.push(escapeExpression(helpers.view.call(depth0, "select", {hash:{
     'id': ("activeTheme"),
     'name': ("general[activeTheme]"),
     'content': ("themes"),
@@ -1857,8 +1918,133 @@ function program9(depth0,data) {
     'optionLabelPath': ("content.label"),
     'value': ("activeTheme"),
     'selection': ("selectedTheme")
-  },hashTypes:{'id': "STRING",'name': "STRING",'content': "ID",'optionValuePath': "STRING",'optionLabelPath': "STRING",'value': "ID",'selection': "ID"},hashContexts:{'id': depth0,'name': depth0,'content': depth0,'optionValuePath': depth0,'optionLabelPath': depth0,'value': depth0,'selection': depth0},contexts:[depth0],types:["ID"],data:data})));
+  },hashTypes:{'id': "STRING",'name': "STRING",'content': "ID",'optionValuePath': "STRING",'optionLabelPath': "STRING",'value': "ID",'selection': "ID"},hashContexts:{'id': depth0,'name': depth0,'content': depth0,'optionValuePath': depth0,'optionLabelPath': depth0,'value': depth0,'selection': depth0},contexts:[depth0],types:["STRING"],data:data})));
   data.buffer.push("\n               </span>\n                <p>Select a theme for your blog</p>\n            </div>\n        </fieldset>\n    </form>\n</section>");
+  return buffer;
+  
+}); });
+
+define('ghost/templates/settings/labs', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', stack1, helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, self=this;
+
+function program1(depth0,data) {
+  
+  
+  data.buffer.push("Back");
+  }
+
+function program3(depth0,data) {
+  
+  var buffer = '', helper, options;
+  data.buffer.push("\n        <fieldset>\n            <div class=\"form-group\">\n                <label>Import</label>\n                ");
+  data.buffer.push(escapeExpression((helper = helpers.partial || (depth0 && depth0.partial),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "import-errors", options) : helperMissing.call(depth0, "partial", "import-errors", options))));
+  data.buffer.push("\n                ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-file-upload'] || (depth0 && depth0['gh-file-upload']),options={hash:{
+    'id': ("importfile"),
+    'uploadButtonText': ("uploadButtonText")
+  },hashTypes:{'id': "STRING",'uploadButtonText': "ID"},hashContexts:{'id': depth0,'uploadButtonText': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-file-upload", options))));
+  data.buffer.push("\n                <p>Import from another Ghost installation. If you import a user, this will replace the current user & log you out.</p>\n            </div>\n        </fieldset>\n    ");
+  return buffer;
+  }
+
+  data.buffer.push("<header class=\"settings-view-header\">\n    <h2 class=\"page-title\">Labs</h2>\n    <div class=\"js-settings-header-inner settings-header-inner\">\n        ");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
+    'class': ("btn btn-default btn-back")
+  },hashTypes:{'class': "STRING"},hashContexts:{'class': depth0},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "settings", options) : helperMissing.call(depth0, "link-to", "settings", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n    </div>\n</header>\n\n\n<section class=\"content settings-debug\">\n    <form id=\"settings-export\">\n        <fieldset>\n            <div class=\"form-group\">\n                <label>Export</label>\n                <button type=\"button\" class=\"btn btn-blue\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "exportData", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">Export</button>\n                <p>Export the blog settings and data.</p>\n            </div>\n        </fieldset>\n    </form>\n    ");
+  stack1 = (helper = helpers['gh-form'] || (depth0 && depth0['gh-form']),options={hash:{
+    'id': ("settings-import"),
+    'enctype': ("multipart/form-data")
+  },hashTypes:{'id': "STRING",'enctype': "STRING"},hashContexts:{'id': depth0,'enctype': depth0},inverse:self.noop,fn:self.program(3, program3, data),contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-form", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n    <form id=\"settings-resetdb\">\n        <fieldset>\n            <div class=\"form-group\">\n                <label>Delete all Content</label>\n                <button type=\"button\" class=\"btn btn-red js-delete\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "openModal", "deleteAll", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data})));
+  data.buffer.push(">Delete</button>\n                <p>Delete all posts and tags from the database.</p>\n            </div>\n        </fieldset>\n    </form>\n    <form id=\"settings-testmail\">\n        <fieldset>\n            <div class=\"form-group\">\n                <label>Send a test email</label>\n                <button type=\"button\" id=\"sendtestmail\" class=\"btn btn-blue\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "sendTestEmail", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">Send</button>\n                <p>Sends a test email to your address.</p>\n            </div>\n        </fieldset>\n    </form>\n</section>\n");
+  return buffer;
+  
+}); });
+
+define('ghost/templates/settings/tags', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', stack1, escapeExpression=this.escapeExpression, self=this;
+
+function program1(depth0,data) {
+  
+  var buffer = '', stack1;
+  data.buffer.push("\n        <div class=\"settings-tag\">\n            <button class=\"tag-edit-button\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "editTag", "tag", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","ID"],data:data})));
+  data.buffer.push(">\n                <span class=\"tag-title\">");
+  stack1 = helpers._triageMustache.call(depth0, "tag.name", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</span>\n                <span class=\"label label-default\">/");
+  stack1 = helpers._triageMustache.call(depth0, "tag.slug", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</span>\n                <p class=\"tag-description\">");
+  stack1 = helpers._triageMustache.call(depth0, "tag.description", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</p>\n                <span class=\"tags-count\">N/A</span>\n            </button>\n        </div>\n    ");
+  return buffer;
+  }
+
+  data.buffer.push("<header class=\"settings-view-header\">\n    <a class=\"btn btn-default btn-back active\" href=\"/ghost/settings/\">Back</a>\n    <h2 class=\"page-title\">Tags</h2>\n    <section class=\"page-actions\">\n        <button type=\"button\" class=\"btn btn-green\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "newTag", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">New Tag</button>\n    </section>\n</header>\n\n<section class=\"content settings-tags\">\n    ");
+  stack1 = helpers.each.call(depth0, "tag", "in", "tags", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0,depth0,depth0],types:["ID","ID","ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n</section>\n");
+  return buffer;
+  
+}); });
+
+define('ghost/templates/settings/tags/settings-menu', ['exports'], function(__exports__){ __exports__['default'] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', stack1, helper, options, escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;
+
+function program1(depth0,data) {
+  
+  var buffer = '';
+  data.buffer.push("\n                    <button class=\"btn btn-red icon-trash\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "deleteTag", "activeTag", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","ID"],data:data})));
+  data.buffer.push(">Delete Tag</button>\n                ");
+  return buffer;
+  }
+
+  data.buffer.push("<div class=\"content-cover\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "closeSettingsMenu", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push("></div>\n<div class=\"settings-menu-container\">\n    <div class=\"settings-menu settings-menu-pane settings-menu-pane-in\">\n        <div class=\"settings-menu-header\">\n            <h4>Tag Settings</h4>\n            <button class=\"close icon-x settings-menu-header-action\" ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "closeSettingsMenu", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">\n                <span class=\"hidden\">Close</span>\n            </button>\n        </div>\n        <div class=\"settings-menu-content\">\n            <form>\n                <div class=\"form-group\">\n                    <label>Tag Name</label>\n                    ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-input'] || (depth0 && depth0['gh-input']),options={hash:{
+    'type': ("text"),
+    'placeholder': ("activeTag.name"),
+    'value': ("activeTagNameScratch"),
+    'focus-out': ("saveActiveTagName")
+  },hashTypes:{'type': "STRING",'placeholder': "ID",'value': "ID",'focus-out': "STRING"},hashContexts:{'type': depth0,'placeholder': depth0,'value': depth0,'focus-out': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-input", options))));
+  data.buffer.push("\n                </div>\n\n                <div class=\"form-group\">\n                    <label>Slug</label>\n                    ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-input'] || (depth0 && depth0['gh-input']),options={hash:{
+    'type': ("text"),
+    'placeholder': ("activeTag.slug"),
+    'value': ("activeTagSlugScratch"),
+    'focus-out': ("saveActiveTagSlug")
+  },hashTypes:{'type': "STRING",'placeholder': "ID",'value': "ID",'focus-out': "STRING"},hashContexts:{'type': depth0,'placeholder': depth0,'value': depth0,'focus-out': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-input", options))));
+  data.buffer.push("\n                </div>\n\n                <div class=\"form-group\">\n                    <label>Description</label>\n                    ");
+  data.buffer.push(escapeExpression((helper = helpers['gh-textarea'] || (depth0 && depth0['gh-textarea']),options={hash:{
+    'value': ("activeTagDescriptionScratch"),
+    'focus-out': ("saveActiveTagDescription")
+  },hashTypes:{'value': "ID",'focus-out': "STRING"},hashContexts:{'value': depth0,'focus-out': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-textarea", options))));
+  data.buffer.push("\n                </div>\n\n                ");
+  stack1 = helpers.unless.call(depth0, "activeTag.isNew", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["ID"],data:data});
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n            </form>\n        </div>\n    </div>\n</div>\n");
   return buffer;
   
 }); });
@@ -1892,7 +2078,7 @@ function program1(depth0,data) {
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n        <h2 class=\"page-title\">Users</h2>\n        <section class=\"page-actions\">\n            <button class=\"btn btn-green\" ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "openModal", "invite-new-user", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","STRING"],data:data})));
-  data.buffer.push(" >New&nbsp;User</button>\n        </section>\n    </header>\n\n    ");
+  data.buffer.push(" >New&nbsp;User</button>\n        </section>\n    </header>\n\n    <section class=\"content settings-users\">\n\n    ");
   stack1 = helpers['if'].call(depth0, "invitedUsers", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(4, program4, data),contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n\n    <section class=\"user-list active-users\">\n\n        <h4 class=\"user-list-title\">Active users</h4>\n\n        ");
@@ -1900,7 +2086,7 @@ function program1(depth0,data) {
     'itemController': ("settings/users/user")
   },hashTypes:{'itemController': "STRING"},hashContexts:{'itemController': depth0},inverse:self.noop,fn:self.program(10, program10, data),contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n\n    </section>\n");
+  data.buffer.push("\n\n    </section>\n\n    </section>\n\n");
   return buffer;
   }
 function program2(depth0,data) {
@@ -2004,10 +2190,7 @@ function program13(depth0,data) {
   return buffer;
   }
 
-  stack1 = helpers.view.call(depth0, "settings/users/users-list-view", {hash:{
-    'tagName': ("section"),
-    'class': ("content settings-users")
-  },hashTypes:{'tagName': "STRING",'class': "STRING"},hashContexts:{'tagName': depth0,'class': depth0},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data});
+  stack1 = helpers.view.call(depth0, "settings/users/users-list-view", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n");
   return buffer;
@@ -2111,7 +2294,7 @@ function program9(depth0,data) {
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\"s Picture</span></div>\n                <button type=\"button\" ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "openModal", "upload", "user", "image", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0,depth0,depth0],types:["STRING","STRING","ID","STRING"],data:data})));
-  data.buffer.push(" class=\"edit-user-image js-modal-image\">Edit Picture</button>\n            </figure>\n\n            <div class=\"form-group\">\n                <label for=\"user-name\">Full Name</label>\n                ");
+  data.buffer.push(" class=\"edit-user-image js-modal-image\">Edit Picture</button>\n            </figure>\n\n            <div class=\"form-group first-form-group\">\n                <label for=\"user-name\">Full Name</label>\n                ");
   data.buffer.push(escapeExpression((helper = helpers.input || (depth0 && depth0.input),options={hash:{
     'value': ("user.name"),
     'id': ("user-name"),
@@ -2266,11 +2449,10 @@ function program1(depth0,data) {
     'type': ("email"),
     'placeholder': ("Email Address"),
     'name': ("identification"),
-    'autofocus': ("autofocus"),
     'autocapitalize': ("off"),
     'autocorrect': ("off"),
     'value': ("identification")
-  },hashTypes:{'class': "STRING",'type': "STRING",'placeholder': "STRING",'name': "STRING",'autofocus': "STRING",'autocapitalize': "STRING",'autocorrect': "STRING",'value': "ID"},hashContexts:{'class': depth0,'type': depth0,'placeholder': depth0,'name': depth0,'autofocus': depth0,'autocapitalize': depth0,'autocorrect': depth0,'value': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-trim-focus-input", options))));
+  },hashTypes:{'class': "STRING",'type': "STRING",'placeholder': "STRING",'name': "STRING",'autocapitalize': "STRING",'autocorrect': "STRING",'value': "ID"},hashContexts:{'class': depth0,'type': depth0,'placeholder': depth0,'name': depth0,'autocapitalize': depth0,'autocorrect': depth0,'value': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "gh-trim-focus-input", options))));
   data.buffer.push("\n            </span>\n        </div>\n        <div class=\"password-wrap\">\n            <span class=\"input-icon icon-lock\">\n                ");
   data.buffer.push(escapeExpression((helper = helpers.input || (depth0 && depth0.input),options={hash:{
     'class': ("password"),
